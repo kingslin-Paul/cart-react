@@ -1,0 +1,40 @@
+.flex{
+    display: flex;
+    justify-content: start !important;
+}
+
+.margin{
+    margin-right: auto;
+}
+.nav{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+
+    /* margin-top: none !important; */
+}
+nav{
+    position: sticky!important;
+    top: 0px;
+    z-index: 1;
+}
+.card-style{
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.cart-logo{
+    font-size: 20px;
+}
+
+.cart-count{
+    font-size: 10px!important;
+}
+
+@media only screen and (max-width:374px) {
+   .cart-logo1>.cart-logo{
+        margin-right: 0px !important;
+        margin-left: 0px !important;
+    }
+}
